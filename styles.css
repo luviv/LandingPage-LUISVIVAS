@@ -1,0 +1,189 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Raleway;
+}
+
+.navegacion {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(119, 75, 171, 67);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navegacion ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navegacion li {
+    padding: 0px 100px 0px 0px;
+    justify-content: center;
+    text-align: center;
+}
+
+.navegacion a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 20px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+.navegacion a:hover {
+    display: flex;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+.navegacion img {
+    width: 40%;
+    margin: 10px 160px 10px 0px;
+}
+
+.navegacion input {
+    display: flex;
+    color: white;
+    padding: 7px 7px 7px 7px;
+    margin: 13px 0px 0px 0px;
+    border: 1px solid #FFFFFF;
+    background: #774BAB;
+}
+
+.navegacion input:hover {
+    display: flex;
+    color: white;
+    font-weight: bold;
+    padding: 7px 7px 7px 7px;
+    margin: 13px 0px 0px 0px;
+    border: 1px solid #FFFFFF;
+    background: linear-gradient(180deg, #774BAB 74.14%, #FFFFFF 100%);
+}
+
+.primero {
+    display: flex;
+    background: linear-gradient(60.64deg, #774BAB 0%, #4A76E8 100%);
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    padding: 230px 0px 230px 230px;
+}
+
+.inicio h1 {
+    color: white;
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px 300px 0px 0px;
+}
+
+.inicio p {
+    font-style: normal;
+    font-weight: 250;
+    font-size: 22px;
+    color: white;
+    padding: 0px 200px 0px 0px;
+}
+
+.links {
+    display: flex;
+    padding: 0px 0px 0px 30px;
+}
+
+.links input {
+    height: 100%;
+    width: 30%;
+}
+
+.links a  {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 0px 0px 60px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.imagen {
+    margin: 0px;
+    padding: 70px 250px 0px 0px;
+}
+
+.imagen img {
+    width: 150%;
+    padding: 0px 0px 0px 0px;
+}
+
+.parallax {
+    background-image: url(./medio.png);
+    min-height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.final {
+    background: linear-gradient(60.64deg, #774BAB 0%, #4A76E8 100%);
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 100px 0px 100px 90px;
+}
+
+.imgfinal {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.imgfinal p {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.imgfinal input {
+    width: 400px;
+    height: 70px;
+    
+background: linear-gradient(180deg, #774BAB 0%, rgba(174, 133, 221, 0) 100%);
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+    color: white;
+    font-size: 25px;
+}
+
+.imgfinal input:hover {
+    width: 400px;
+    height: 70px;
+    
+background: linear-gradient(180deg, #774BAB 0%, rgba(174, 133, 221, 0) 100%);
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+background: linear-gradient(180deg, #AE85DD 0%, rgba(174, 133, 221, 0) 100%);
+border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
